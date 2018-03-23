@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Kevin Pheasey']
   spec.email         = ['kevin@kpheasey.com']
   spec.summary       = 'FreshBooks OAuth2 strategy for OmniAuth'
-  spec.description   = 'FreshBooks OAuth2 strategy for OmniAuth'
+  spec.description   = 'FreshBooks OAuth2 strategy for OmniAuth using the new FreshBooks API'
   spec.homepage      = 'https://github.com/kp-software/omniauth-freshbooks-oauth2'
   spec.license       = 'MIT'
 
@@ -22,6 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'omniauth', '~> 1.2'
   spec.add_runtime_dependency 'omniauth-oauth2', '~> 1.1'
 
-  spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rake', '~> 11.3'
+  spec.add_development_dependency 'rspec', '~> 3.1'
 end
