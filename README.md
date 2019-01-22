@@ -17,3 +17,6 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   provider :freshbooks, ENV['FRESHBOOKS_KEY'], ENV['FRESHBOOKS_SECRET']
 end
 ```
+
+## Credits
+From an original implementaiton from `KP Software Solutions`.
