@@ -7,13 +7,13 @@ This is the OmniAuth OAuth2 strategy for authentication to [FreshBooks](https://
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-freshbooks-oauth2'
+gem 'omniauth-freshbooks'
 ```
 
 And then, you need to add the following to your `config/initializers/omniauth.rb`:
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :freshbooks, ENV['FRESHBOOKS_KEY'], ENV['FRESHBOOKS_SECRET'] 
+  provider :freshbooks, ENV['FRESHBOOKS_KEY'], ENV['FRESHBOOKS_SECRET']
 end
 ```
